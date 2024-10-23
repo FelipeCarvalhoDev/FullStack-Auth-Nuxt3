@@ -1,7 +1,4 @@
 {
   "installCommand": "npm install",
-  "buildCommand": "prisma generate && npm run build",
-  "env": {
-    "DATABASE_URL": "your-database-url-here"
-  }
+  "buildCommand": "prisma generate && npm run build"
 }

@@ -1,0 +1,13 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "installCommand": "npm install",
+  "buildCommand": "prisma generate && npm run build",
+  "env": {
+    "DATABASE_URL": "mongodb+srv://felipelimaweb:Flc.1108@cluster0.rfu31.mongodb.net/MainDB?retryWrites=true&w=majority&appName=Cluster0"
+  }
+}

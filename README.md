@@ -48,20 +48,21 @@ A aplicação permite o login de usuários por meio de **LinkedIn**, **Google** 
    npm install
 
 2. **Crie um arquivo .env com as seguintes variáveis:**:
-  ```bash
-  DATABASE_URL=<SUA_CONEXÃO_MONGODB>
-  BASE_URL=<"http://localhost:3000">
-  MAILERSEND_API_KEY=<EMAIL_VERIFICADO_MAILERSENDER>
-  JWT_SECRET=<SUA_SECRET_KEY>
-  LINKEDIN_CLIENT_ID=<SEU_CLIENT_ID_LINKEDIN>
-  LINKEDIN_CLIENT_SECRET=<SEU_CLIENT_SECRET_LINKEDIN>
-  LINKEDIN_REDIRECT_URI=<SUA_REDIRECT_URI>
-  GOOGLE_CLIENT_ID=<SEU_CLIENT_ID_GOOGLE>
-  GOOGLE_CLIENT_SECRET=<SEU_CLIENT_SECRET_GOOGLE>
-  GOOGLE_REDIRECT_URI=<SUA_REDIRECT_URI_GOOGLE>
-  FACEBOOK_APP_ID=<SEU_APP_ID_FACEBOOK>
-  FACEBOOK_APP_SECRET=<SEU_APP_SECRET_FACEBOOK>
-  FACEBOOK_REDIRECT_URI=<SUA_REDIRECT_URI_FACEBOOK>
+    ```bash
+    DATABASE_URL=<SUA_CONEXÃO_MONGODB>
+    BASE_URL=<"http://localhost:3000">
+    MAILERSEND_API_KEY=<EMAIL_VERIFICADO_MAILERSENDER>
+    JWT_SECRET=<SUA_SECRET_KEY>
+    LINKEDIN_CLIENT_ID=<SEU_CLIENT_ID_LINKEDIN>
+    LINKEDIN_CLIENT_SECRET=<SEU_CLIENT_SECRET_LINKEDIN>
+    LINKEDIN_REDIRECT_URI=<SUA_REDIRECT_URI>
+    GOOGLE_CLIENT_ID=<SEU_CLIENT_ID_GOOGLE>
+    GOOGLE_CLIENT_SECRET=<SEU_CLIENT_SECRET_GOOGLE>
+    GOOGLE_REDIRECT_URI=<SUA_REDIRECT_URI_GOOGLE>
+    FACEBOOK_APP_ID=<SEU_APP_ID_FACEBOOK>
+    FACEBOOK_APP_SECRET=<SEU_APP_SECRET_FACEBOOK>
+    FACEBOOK_REDIRECT_URI=<SUA_REDIRECT_URI_FACEBOOK>
+    ```
 
 3. **Inicie o servidor de desenvolvimento**:
    ```bash
@@ -70,12 +71,11 @@ A aplicação permite o login de usuários por meio de **LinkedIn**, **Google** 
 4. **Acesse a aplicação no seu navegador em**: http://localhost:3000
 
 5. **Utilize os seguintes logins para diferentes permissões**:
-  *Email:* admin@mail.com
-  *Senha:* 1234
-
-  *Email:* user@mail.com
-  *Senha:* 1234
-
+    > *Email:* admin@mail.com \
+    > *Senha:* 1234
+  
+    > *Email:* user@mail.com \
+    > *Senha:* 1234
 
 ## Melhorias futuras
 

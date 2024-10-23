@@ -54,16 +54,6 @@
       <div class="block md:hidden h-header w-full bg-header z-0 absolute -ml-6"></div>
       <aside class="p-5 transform top-0 left-0 w-full bg-header fixed h-full overflow-auto ease-in-out transition-all duration-300 -z-10" :class="isOpen ? 'translate-y-header' : '-translate-y-full'">
 
-        <div class="close">
-          <button class="absolute top-0 right-0 mt-4 mr-4" @click=" isOpen = false" aria-label="Close">
-            <Icon name="material-symbols:close" size="25" />
-          </button>
-        </div>
-
-        <span @click="isOpen = false" class="flex w-full items-center py-4 border-b">
-          <LogosBrand />
-        </span>
-
         <ul class="divide-y font-sans">
           <li v-for="(item, index) in headerNav" :key="index">
             <NuxtLink :to="item.link" @click="isOpen = false" class="my-4 inline-block">

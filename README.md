@@ -62,6 +62,7 @@ A aplicação permite o login de usuários por meio de **LinkedIn**, **Google** 
   FACEBOOK_APP_ID=<SEU_APP_ID_FACEBOOK>
   FACEBOOK_APP_SECRET=<SEU_APP_SECRET_FACEBOOK>
   FACEBOOK_REDIRECT_URI=<SUA_REDIRECT_URI_FACEBOOK>
+  ```
 
 3. **Inicie o servidor de desenvolvimento**:
    ```bash
